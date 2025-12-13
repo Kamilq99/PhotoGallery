@@ -1,0 +1,12 @@
+name: First Workflow schema
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    runs-out: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello World"
