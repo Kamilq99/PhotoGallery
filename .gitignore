@@ -215,3 +215,6 @@ Infrastracture/.terraform/
 Infrastracture/.terraform.lock.hcl
 Infrastracture/terraform.tfstate
 Infrastracture/terraform.tfstate.1765710966.backup
+
+#DS Store
+.DS_Store
