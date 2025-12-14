@@ -1,4 +1,4 @@
-name: First Workflow schema
+name: First Workflow
 
 on:
   push:
@@ -6,7 +6,9 @@ on:
       - main
 
 jobs:
-    runs-out: ubuntu-latest
+  say-hello:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Say Hello
-        run: echo "Hello World"
+    - name: Say Hello
+      run: echo "Hello World"
