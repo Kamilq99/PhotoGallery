@@ -208,3 +208,10 @@ __marimo__/
 
 #venv
 Backend/venv/
+
+#Infrastracture
+
+Infrastracture/.terraform/
+Infrastracture/.terraform.lock.hcl
+Infrastracture/terraform.tfstate
+Infrastracture/terraform.tfstate.1765710966.backup
