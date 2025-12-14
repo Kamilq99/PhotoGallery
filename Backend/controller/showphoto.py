@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from model.image_model import ImageModel
+from model.image import image
 
 showphoto_bp = Blueprint('showphoto', __name__)
 
@@ -9,7 +9,7 @@ def show_photo():
     if not image_id:
         return jsonify({"error": "Image ID is required"}), 400
 
-    image = ImageModel.get_image_by_id(image_id)
+    image = image.get_image_by_id(image_id)
     if not image:
         return jsonify({"error": "Image not found"}), 404
 
