@@ -11,3 +11,10 @@ Frontend/build/
 .env
 *.log
 Backend/venv/
+Backend/controller/__pycache__/
+Backend/model/__pycache__/
+Backend/db_connect/__pycache__/
+Backend/config/__pycache__/
+Frontend/src/__pycache__/
+Frontend/public/__pycache__/
+Backend/s3_connect/__pycache__/
